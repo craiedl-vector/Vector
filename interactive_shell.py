@@ -48,6 +48,20 @@ args = anki_vector.util.parse_command_args()
 
 ipyshell = InteractiveShellEmbed(banner1='\nWelcome to the Vector Interactive Shell!',
                                  exit_msg='Goodbye\n')
+                                
+def speak(text_to_speak):
+  robot.behavior.say_text(text_to_speak)
+  
+def go_to_cube():
+  robot.behavior.go_to_object(robot.world.connected_light_cube)
+  
+def pick_up_cube():
+  robot.behavior.pickup_object(robot.world.connected_light_cube)
+  
+def look_around():
+  robot.behavior.look_around_in_place()
+  
+
 
 if __name__ == "__main__":
     with anki_vector.Robot(args.serial,
