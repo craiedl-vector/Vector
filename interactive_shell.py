@@ -117,6 +117,14 @@ def nod_head(count = 1):
     robot.behavior.set_head_angle(anki_vector.behavior.MAX_HEAD_ANGLE)
   robot.behavior.set_head_angle(degrees(35))
   
+# TODO: add lift behaviour
+  
+def turn_left():
+  
+def turn_right():
+  
+def spin around(count=1):
+  
 
 if __name__ == "__main__":
     with anki_vector.Robot(args.serial,
