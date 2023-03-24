@@ -45,7 +45,7 @@ You may run commands one at a time. *TODO: figure out how to allow multi-entry* 
 | `put_down_cube()` | Vector will put down its cube. If it cannot put it down it will retry twice |
 | `pop_a_wheelie()` | Vector will use its cube to pop a wheelie. The cube must be available |
 | `roll_cube()` | (*tentative*) Vector will roll its cube |
-| `set_eye_colour(colour)` | Vector's eye colour will change to the specified colour. Accepts blue, orange, yellow, purple, and green will default to green if input is invalid. | `set_eye_colour(`blue`) |
+| `set_eye_colour(colour)` | Vector's eye colour will change to the specified colour. Accepts blue, orange, yellow, purple, and green will default to green if input is invalid. | `set_eye_colour(blue)` |
 | `look_around()` | Vector will look around without moving |
 | `drive_straight(distance)` | Vector will drive straight forward. Distance must be in millimetres. If no distance is specified it will drive 100mm.| `drive_straight(20)` |
 | `tilt_head_up()` | Vector will tilt its head up as far as it can go |
