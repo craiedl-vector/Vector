@@ -21,15 +21,14 @@ This is a repo for all work in progress files for the Vector anthromorphism modu
 ### Starting the environment
 #### MacOS 
 1. Open the terminal app (or your preferred emulator)
-2. Navigate to where `interactive_shell.py` is located. 
-* If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening the terminal app
+2. Navigate to where `interactive_shell.py` is located. *If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening the terminal app*
 3. Type `Python3 interactive_shell.py` into your terminal and press enter
 4. You should now see the iPython environment in your terminal!
 
-### Windows *TODO: test this with a windows machine just to make sure*
+### Windows
+*TODO: test this with a windows machine just to make sure*
 1. Open Command Prompt (or your preferred emulator)
-2. Navigate to where `interactive_shell.py` is located. 
-* If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening Command Prompt
+2. Navigate to where `interactive_shell.py` is located. *If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening Command Prompt*
 3. Type `Python3 interactive_shell.py` into your terminal and press enter
 4. You should now see the iPython environment in your terminal!
 
