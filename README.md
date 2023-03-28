@@ -10,6 +10,25 @@ This is a repo for all work in progress files for the Vector anthropomorphism mo
 * `interactive_shell.py` is based example provided by Anki. It opens up an iPython environment and streams what Vector sees to the laptop. It now contained simplified wrappers over Vector functionality that students can call in the iPython environment.
 
 
+## Running example module 1
+#### MacOS 
+1. Open the terminal app (or your preferred emulator)
+2. Navigate to where `pickup.py` is located. *If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening the terminal app*
+3. Type `python3 pickupl.py` into your terminal and press enter
+4. The program should now be running
+
+### Windows
+*TODO: test this with a windows machine just to make sure*
+1. Open Command Prompt (or your preferred emulator)
+2. Navigate to where `pickup.py` is located. *If you do not know how to navigate via the command line the easiest thing is to put the file in your "Documents" file and then run `cd documents` after opening Command Prompt*
+3. Type `python3 pickup.py` into your terminal and press enter
+4. The program should now be running
+
+#### Interacting with the program
+* Vector will start by speaking, no matter what it says you should then pick it up off its charger
+* Once it has stopped moving/speaking, place it back on its charger
+* Wait for Vector to speak again and then pick it up for the second time
+
 ## Using the interactive environment
 
 ### Pre-requisites
@@ -52,3 +71,4 @@ You may run commands one at a time. *TODO: figure out how to allow multi-entry* 
 | `tilt_head_down()` | Vector will tilt its head down as far as it can go |
 | `move_head_to_middle()` | Vector's head will move to the middle position. It will be facing forward |
 | `nod_head(repetitions)` | Vector will nod its head a specified number of times. If nothing is specified Vector will nod once | `nod_head(3)` |
+

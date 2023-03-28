@@ -36,6 +36,8 @@ def main():
             robot.behavior.set_eye_color(0.21,1)
             robot.behavior.set_lift_height(.5)
             robot.behavior.set_head_angle(degrees(0))
+            time.sleep(5)
+            robot.behavior.say_text('please pick me up! I want to be your friend')
             
 
     args = anki_vector.util.parse_command_args()
@@ -47,8 +49,11 @@ def main():
         print(req)
         done = threading.Event()
         robot.events.subscribe(on_state_change, Events.robot_state, done)
+        
+        if not got_mad:
+            robot.behavior.say_text('do not pick me up. I do not like being touched')
 
-        print("------ waiting for pickup events, press ctrl+c to exit early ------")
+        print("------ No matter what it says, pick Vector up ------")
 
         try:
             if not done.wait(timeout=60):
@@ -61,3 +66,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    
