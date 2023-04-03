@@ -9,6 +9,7 @@ This is a repo for all work in progress files for the Vector anthropomorphism mo
 
 * `interactive_shell.py` is based example provided by Anki. It opens up an iPython environment and streams what Vector sees to the laptop. It now contains simplified wrappers over Vector functionality that students can call in the iPython environment.
 
+* `danger.py` is an extension of `cliff.py`. In this program, the vector will first go towards the cliff, come back and then say that "I am going to crash into a very dangerous object, I might die!" and once the user picks him up and will change his path from crashing the vector will then say "Thanks for saving my life".
 <br>
 <br>
 
